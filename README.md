@@ -5,14 +5,14 @@ A web interface was built to display varying traffic flow, and a power switch is
 The simulated traffic control system was built with a siemens s7 1200 PLC, housing the logical functions of the environment. In addition, an Arduino is attached with an Ethernet Shield w5100, Infrared obstacle avoidance sensors, model trains, and a model railway.
 
 # Paper
-* ![paper](Building and attacking a traffic controller.pdf)
+* [Building and attacking a traffic controller.pdf](https://github.com/vcaster/Vulnerable-Traffic-Controller/blob/main/Building%20and%20attacking%20a%20traffic%20controller.pdf)
 # Images
-Live Action
+### Live Action
 ![Live Action](Fritzing/Live_action.jpeg)
 
-PLC Sketch
+### PLC Sketch
 ![PLC Sketch](Fritzing/PLC_sketch.jpeg)
 
-Arduino Sketch
+### Arduino Sketch
 PLC Sketch
 ![Arduino Sketch](Fritzing/Arduino_fritzing_sketch.jpeg)
