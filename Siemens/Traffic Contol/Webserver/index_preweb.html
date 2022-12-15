@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<!-- AWP_In_Variable Name='"HOLD_REG".BUFFER[0]' -->
+<!-- AWP_In_Variable Name='"HOLD_REG".BUFFER[1]' -->
+<!-- AWP_In_Variable Name='"HOLD_REG".BUFFER[2]' -->
+<!-- AWP_In_Variable Name='"HOLD_REG".BUFFER[3]' -->
+<!-- AWP_In_Variable Name='"HOLD_REG".BUFFER[4]' -->
+<!-- AWP_In_Variable Name='"HOLD_REG".BUFFER[5]' -->
+<!-- AWP_In_Variable Name='"HOLD_REG".BUFFER[6]' -->
+<!-- AWP_In_Variable Name='"HOLD_REG".BUFFER[7]' -->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="refresh" content="1">
+		<title> Traffic Controller</title>
+		<style>
+		td, th {
+			border: 1px solid #dddddd;
+			text-align: left;
+			padding: 8px;
+		}
+		tr:nth-child(even) {
+			background-color: #dddddd;
+		}
+		.center {
+			margin-left: auto;
+			margin-right: auto;
+		}
+		</style>
+	</head>
+	<body>
+		<h1 style="text-align: center;">Traffic Controller</h1>
+
+		<table class="center">
+		<tr>
+			<th>Holding Register (40001)</th>
+			<th>Name</th>
+			<th>Status (0/1)</th>
+			<th>Control</th>
+		</tr>
+		<tr>
+			<td>0</td>
+			<td>Power Switch</td>
+			<td>:="HOLD_REG".BUFFER[0]:</td>
+			<td>
+			<form>
+			<input type="submit" value="ON">
+			<input type="hidden" name='"HOLD_REG".BUFFER[0]' value="1">
+			</form>
+
+			<form>
+			<input type="submit" value="OFF">
+			<input type="hidden" name='"HOLD_REG".BUFFER[0]' value="0">
+			</form></td>	
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>Red Light 1</td>
+			<td>:="HOLD_REG".BUFFER[1]:</td>
+			<td>
+			<form>
+			<input type="submit" value="ON">
+			<input type="hidden" name='"HOLD_REG".BUFFER[1]' value="1">
+			</form>
+
+			<form>
+			<input type="submit" value="OFF">
+			<input type="hidden" name='"HOLD_REG".BUFFER[1]' value="0">
+			</form></td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Green Light 1</td>
+			<td>:="HOLD_REG".BUFFER[2]:</td>
+			<td>
+			<form>
+			<input type="submit" value="ON">
+			<input type="hidden" name='"HOLD_REG".BUFFER[2]' value="1">
+			</form>
+
+			<form>
+			<input type="submit" value="OFF">
+			<input type="hidden" name='"HOLD_REG".BUFFER[2]' value="0">
+			</form></td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>Yellow Light 1</td>
+			<td>:="HOLD_REG".BUFFER[3]:</td>
+			<td>
+			<form>
+			<input type="submit" value="ON">
+			<input type="hidden" name='"HOLD_REG".BUFFER[3]' value="1">
+			</form>
+
+			<form>
+			<input type="submit" value="OFF">
+			<input type="hidden" name='"HOLD_REG".BUFFER[3]' value="0">
+			</form></td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>Red Light 2</td>
+			<td>:="HOLD_REG".BUFFER[5]:</td>
+			<td>
+			<form>
+			<input type="submit" value="ON">
+			<input type="hidden" name='"HOLD_REG".BUFFER[5]' value="1">
+			</form>
+
+			<form>
+			<input type="submit" value="OFF">
+			<input type="hidden" name='"HOLD_REG".BUFFER[5]' value="0">
+			</form></td>
+		</tr>
+
+		<tr>
+			<td>6</td>
+			<td>Green Light 2</td>
+			<td>:="HOLD_REG".BUFFER[6]:</td>
+			<td>
+			<form>
+			<input type="submit" value="ON">
+			<input type="hidden" name='"HOLD_REG".BUFFER[6]' value="1">
+			</form>
+
+			<form>
+			<input type="submit" value="OFF">
+			<input type="hidden" name='"HOLD_REG".BUFFER[6]' value="0">
+			</form></td>
+		</tr>
+		<tr>
+			<td>7</td>
+			<td>Yellow Light 2</td>
+			<td>:="HOLD_REG".BUFFER[7]:</td>
+			<td>
+			<form>
+			<input type="submit" value="ON">
+			<input type="hidden" name='"HOLD_REG".BUFFER[7]' value="1">
+			</form>
+
+			<form>
+			<input type="submit" value="OFF">
+			<input type="hidden" name='"HOLD_REG".BUFFER[7]' value="0">
+			</form></td>
+		</tr>
+
+		</table>
+
+	</body>
+</html>
